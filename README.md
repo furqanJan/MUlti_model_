@@ -1,4 +1,4 @@
-﻿# Multimodal Meme Analysis with ResNet50 and BERT
+# Multimodal Meme Analysis with ResNet50 and BERT
 
 ## Description
 
