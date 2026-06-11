@@ -1,29 +1,42 @@
-🛍️ Multimodal Product Recommendation System  
-Image + Review → Recommendation Score**
+﻿# Multimodal Meme Analysis with ResNet50 and BERT
 
-A multimodal deep learning system that combines **computer vision** and **natural language processing** to classify fashion products and generate recommendation scores using **FastAPI** and **Streamlit**.
+## Description
 
----
+A multimodal deep learning notebook for the Memotion dataset that combines image features from ResNet50 with text features from BERT-style transformers.
 
-## 🚀 Features
+## Key Features
 
-- Image classification using a CNN backbone
-- Review text analysis using a transformer-based NLP model
-- Vision–language feature fusion
-- Recommendation score generation (0–100)
-- FastAPI backend (REST API)
-- Streamlit frontend (interactive demo)
-- Input validation (blank / invalid images blocked)
+- Memotion dataset download and preparation
+- Image/text row validation
+- 1,500-sample training workflow
+- PyTorch dataset and dataloader
+- Vision-language fusion model checkpointing
 
----
+## Tech Stack
 
-## 🧠 Model Overview
+- Python
+- Jupyter Notebook
+- PyTorch
+- ResNet50
+- Transformers
+- timm
+- Pandas
 
-- **Vision model:** ResNet-50 (ImageNet pretrained)
-- **Text model:** Transformer (BERT-based)
-- **Fusion:** Concatenation of image + text embeddings
-- **Head:** Fully connected classifier
-- **Output:** Product category + confidence + recommendation score
+## Installation
 
+pip install torch torchvision transformers timm pandas scikit-learn
 
+## Usage
+
+Open the notebook, configure Kaggle access, run preprocessing, then train and save the multimodal checkpoint.
+
+## Screenshots
+
+![Demo placeholder](screenshots/demo.svg)
+
+Add project screenshots to the `screenshots/` folder. Replace `demo.svg` with the actual image filename when screenshots are available.
+
+## License
+
+No license file is currently included. Add a license before reusing, distributing, or publishing this project for public collaboration.
 
